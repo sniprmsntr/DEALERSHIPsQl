@@ -42,7 +42,7 @@ CREATE TABLE lease_contracts (
     FOREIGN KEY (VIN) REFERENCES vehicles(VIN)
 );
 
--- Step 3: Populate the tables with sample data
+
 INSERT INTO dealerships (name, address, phone)
 VALUES
 ('ABC Motors', '123 Main St', '555-123-4567'),
